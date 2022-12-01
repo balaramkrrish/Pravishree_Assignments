@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:white
+}
+form {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:white;
+    box-shadow: 0 0 10 black;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+}
+form input {
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+}
+ul {
+    display: flex;
+    position: absolute;
+    top:calc(50% + 80px);
+    left: 50%;
+    transform: translate(-50%,-50%);
+    list-style: none;
+    
+}
+li {margin: 10px;
+}
+a{
+    text-decoration:none;
+}
+li:hover a{
+    color: black;
+}
+
+div {
+    position: absolute;
+    top:10px;
+    right: 100px;
+}
+img {
+    position: absolute;
+    top:calc(50% - 150px);
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+   </style>
+</head>
+<body>
+    <div>
+        <button type="button"><i class="fa-solid fa-user"></i></button>
+    </div>
+    <img src="giphy.gif" alt="#">
+    <form action="">
+        <input type="text" placeholder="Search Here">
+        <button type="submit" ><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <ul>
+        <li><a href="#">English</a></li>
+        <li><a href="#">हिन्दी</a></li>
+        <li><a href="#">বাংলা</a></li>
+        <li><a href="#">తెలుగు</a></li>
+        <li><a href="#">मराठी</a></li>
+        <li><a href="#">தமிழ்</a></li>
+        <li><a href="#">ગુજરાતી</a></li>
+        <li><a href="#">ಕನ್ನಡ</a></li>
+        <li><a href="#">മലയാളം</a></li>
+        <li><a href="#">ਪੰਜਾਬੀ</a></li>
+    </ul>
+</body>
+</html>
